@@ -23,4 +23,8 @@ public class Folder extends Composant{
         composant.level = this.level + 1;
         return composant;
     }
+
+    public void removeComposant(Composant composant){
+        composants.remove(composant);
+    }
 }
